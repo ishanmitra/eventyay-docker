@@ -130,7 +130,7 @@ findstr /C:"127.0.0.1  app.eventyay.com" %SystemRoot%\System32\drivers\etc\hosts
 findstr /C:"127.0.0.1  video.eventyay.com" %SystemRoot%\System32\drivers\etc\hosts >nul 2>&1 && echo Already exists: video.eventyay.com || (echo 127.0.0.1  video.eventyay.com>>%SystemRoot%\System32\drivers\etc\hosts && echo Added: video.eventyay.com)
 ```
 
-**->WSL users can alternatively install chrome inside wsl which will show as a seperate browser in windows but there may be performance issues**
+**->WSL users can alternatively install chrome inside wsl which will show as a separate browser in windows but there may be performance issues**
 
 ```bash
 cd /tmp
